@@ -6,7 +6,7 @@ folder: docs
 ---
 
 
-Once you have a production repository, meaning that it's passed tests, deployed a versioned container, and others are using
+{% raw %}Once you have a production repository, meaning that it's passed tests, deployed a versioned container, and others are using
 your software, you can't make changes and push to master willy-nilly. Instead, you will want to step through a careful
 set of stages to add new features or make changes that might look like this:
 
@@ -106,3 +106,5 @@ If there are more changes needed, you can continue to push commits to your branc
 Once your tests have passed, and you are a happy camper... Merge Away Merrill!
 
 ![assets/img/merge.gif](assets/img/merge.gif)
+
+{% endraw %}
