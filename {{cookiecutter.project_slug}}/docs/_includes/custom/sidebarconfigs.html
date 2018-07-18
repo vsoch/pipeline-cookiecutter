@@ -1,4 +1,4 @@
-{% if page.sidebar == "main_sidebar" %}
+{% raw %}{% if page.sidebar == "main_sidebar" %}
   {% assign sidebar = site.data.sidebars.main_sidebar.entries %}
   {% assign sidebar_pdf = site.data.sidebars.main_sidebar.entries %}
 {% else %}
@@ -9,4 +9,4 @@
 {% if page.sidebar == "containers" %}
   {% assign sidebar = site.data.sidebars.containers.entries %}
   {% assign sidebar_pdf = site.data.sidebars.containers.entries %}
-{% endif %}
+{% endif %}{% endraw %}
