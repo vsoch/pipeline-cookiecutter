@@ -20,7 +20,7 @@ pip install cookiecutter
 ```
 
 ```bash
-cookiecutter https://www.github.com/vsoch/template-pipeline
+cookiecutter https://www.github.com/vsoch/pipeline-template
 ```
 
 ### Development Start
