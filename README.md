@@ -1,11 +1,13 @@
 {{cookiecutter.project_name}} Encode Pipeline
 =============================================
 
-This is a work in progress, a template for an example repository. You can
-generate your starter ENCODE repository by doing the following:
+This is a work in progress, a template for an example repository. The documentation
+will be found in this README until development is more finalized, and then move 
+into a proper format.
 
 
 ## Usage
+You can generate your starter ENCODE repository by doing the following:
 
 1. Install cookiecutter
 
