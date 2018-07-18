@@ -1,11 +1,16 @@
-{{cookiecutter.project_name}} Encode Pipeline
-=============================================
+Encode Pipeline Cookie Cutter Template
+======================================
 
 This is a work in progress, a template for an example repository. The documentation
 will be found in this README until development is more finalized, and then move 
 into a proper format.
 
 # Usage
+
+```bash
+pip install cookiecutter
+cookiecutter https://www.github.com/vsoch/pipeline-template
+```
 
 ## Step 1. Generate Codebase
 
