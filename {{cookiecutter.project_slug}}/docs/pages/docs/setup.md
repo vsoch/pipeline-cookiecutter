@@ -8,7 +8,7 @@ toc: false
 
 ## 1. Docker
 
-If you aren't familiar with Docker, it's a container technology that will let us easily use entire packaged software. You should set up and install Docker [per the instructions here](https://docs.docker.com/install/). Make sure that you are able to run the "hello-world" example _without needing superuser priviledges_ before you continue this tutorial.
+{% raw %}If you aren't familiar with Docker, it's a container technology that will let us easily use entire packaged software. You should set up and install Docker [per the instructions here](https://docs.docker.com/install/). Make sure that you are able to run the "hello-world" example _without needing superuser priviledges_ before you continue this tutorial.
 
 ## 2. Cromwell
 
@@ -55,4 +55,4 @@ If your Docker is configured correctly and you've pulled and run the image, you 
 the console above. Good job! Did you notice in the command we added the "prod" tag to the end?
 "Prod" refers to the production image tag. If you need to find other tags, view them [here](https://hub.docker.com/r/broadinstitute/cromwell/tags/).
 
-That's all you need to get started! Let's now go back to the [Pipelines section]({{ site.repo }}/#pipelines) where you can choose a pipeline you want to run.
+That's all you need to get started! Let's now go back to the [Pipelines section]({{ site.repo }}/#pipelines) where you can choose a pipeline you want to run.{% endraw %}

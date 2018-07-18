@@ -5,7 +5,7 @@ permalink: {{cookiecutter.project_slug}}
 folder: docs
 ---
 
-Hi Friend! Welcome to the documentation base to get you started using the [{{cookiecutter.project_name}}]({{ site.repo }}). This is a work in progress, so if you have any questions please don't hesitate to reach out by posting on our [issue board]({{ site.repo }}/issues). What are we going to be doing today?
+{% raw %}Hi Friend! Welcome to the documentation base to get you started using the [{{cookiecutter.project_name}}]({{ site.repo }}). This is a work in progress, so if you have any questions please don't hesitate to reach out by posting on our [issue board]({{ site.repo }}/issues). What are we going to be doing today?
 
  1. Installing Dependencies
  2. Download Data
@@ -457,4 +457,4 @@ lookupObject: pipeline-genome-data/hg38_dx.tsv
 workflow-FJ76b6Q0F4Zk8P2zF7QbZjvQ
 $
 ```
-
+{% endraw %}

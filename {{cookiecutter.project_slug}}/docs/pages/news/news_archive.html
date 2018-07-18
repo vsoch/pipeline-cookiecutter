@@ -12,7 +12,7 @@ folder: news
     <div class="post-list">
 
 
-    <section id="archive">
+{% raw %}<section id="archive">
         <h3>This year's posts</h3>
         {% for post in site.categories.news %}
         {% unless post.next %}
@@ -29,7 +29,7 @@ folder: news
             <li><time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url | remove: "/"}}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
-    </section>
+    </section>{% endraw %}
 
 
     <hr/>
