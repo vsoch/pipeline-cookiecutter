@@ -73,14 +73,3 @@ There are a set of nice examples provided [here](https://github.com/dnanexus/dxW
 The template also includes documentation, which will render to Github pages based on being in the "docs"
 folder. This means that once you push to Github, you should go to settings --> Github pages and
 select the option to have the docs for the repository to render from the docs folder.
-
-
-# Directories
-
-* `backends/` : Backend configuration files (`.conf`)
-* `workflow_opts/` : Workflow option files (`.json`)
-* `examples/` : input JSON examples (SE and PE)
-* `data/` : data TSV files for each platform
-* `src/` : scripts for each task in WDL
-* `docker/` : Dockerfile and MySQL DB initialization script
-* `test/` : test scripts for developers
