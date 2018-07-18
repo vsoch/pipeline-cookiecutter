@@ -9,7 +9,24 @@ into a proper format.
 
 ## Step 1. Generate Codebase
 
-You can generate your starter ENCODE repository by doing the following:
+### Quick Start
+You don't need to download or clone anything - you can just install cookiecutter 
+(a Python package on pip) and then run this command!
+
+1. Install cookiecutter
+
+```bash
+pip install cookiecutter
+```
+
+```bash
+cookiecutter https://www.github.com/vsoch/template-pipeline
+```
+
+### Development Start
+If you want to customize the template before you fill it with your variables, you 
+can also optionally first clone the template
+repository, doing the following:
 
 1. Install cookiecutter
 
@@ -41,7 +58,7 @@ cat cookiecutter.json
 }
 ```
 
-3. Create the repository from this one:
+3. Create the repository from this one.
 
 ```bash
 cookiecutter --no-input
