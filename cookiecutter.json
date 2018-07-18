@@ -1,0 +1,11 @@
+{
+    "project_lead": "VanessaSaurus",
+    "project_email": "encode-help@lists.stanford.edu",
+    "project_name": "Hello Cookie Pipeline Template",
+    "project_slug": "pipeline-template",
+    "repo_user": "vsoch",
+    "repo_name": "pipeline-template",
+    "project_short_description": "An encode pipeline cookie cutter template.",
+    "year": "2018",
+    "version": "0.0.1"
+}
