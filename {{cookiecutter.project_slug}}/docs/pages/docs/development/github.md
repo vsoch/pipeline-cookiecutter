@@ -7,7 +7,7 @@ folder: docs
 
 ## 1. Learn about Github
 
-Github is a version control system, meaning that you can store local versions of code (we can refer to this as "local") and then also store a version with Github (called a "remote." We do this so that if your computer explodes, your code is backed up. We also do it for reproducibility. By way of saving a record of changes over time, you could easily revert to a previous change, or make earlier versions of your software available for use.  Github is also really great because it connects with several services that are going to help us by way of triggers called webhooks. 
+{% raw %}Github is a version control system, meaning that you can store local versions of code (we can refer to this as "local") and then also store a version with Github (called a "remote." We do this so that if your computer explodes, your code is backed up. We also do it for reproducibility. By way of saving a record of changes over time, you could easily revert to a previous change, or make earlier versions of your software available for use.  Github is also really great because it connects with several services that are going to help us by way of triggers called webhooks. 
 
 The basic set of actions that you will run locally is to "commit," which is a statement that "I am happy with these changes and want to save them to my local repository" and then to "push," which says "take my local changes and push them to the remote repository on Github." This set of actions is part of the <a href="https://guides.github.com/introduction/flow/" target="_blank">GitHub Flow</a>, which is something that you should look over if you have never heard of it. 
 
@@ -69,4 +69,4 @@ git pull upstream master
 git push origin master
 ```
 
-More instructions for Github are provided in the [Development](development.md) docs.
+More instructions for Github are provided in the [Development](development.md) docs.{% endraw %}
