@@ -7,7 +7,7 @@ last_updated: November 30, 2015
 summary: "This page demonstrates how you the integration of a script called ScrollTo, which is used here to link definitions of a JSON code sample to a list of definitions for that particular term. The scenario here is that the JSON blocks are really long, with extensive nesting and subnesting, which makes it difficult for tables below the JSON to adequately explain the term in a usable way."
 ---
 
-{% if site.output == "pdf" %}
+{% raw %}{% if site.output == "pdf" %}
 {{site.data.alerts.note}} The content on this page doesn't display well on PDF, but I included it anyway so you could see the problems this layout poses if you're including it in PDF.  {{site.data.alerts.end}}
 {% endif %}
 
@@ -237,4 +237,4 @@ $('#small-box-links').localScroll({
 {{site.data.alerts.note}} This was mostly an experiment to see if there was a better way to document a long JSON code example. I haven't actually used this approach in my own documentation.{{site.data.alerts.end}}
 
 {% endif %}
-
+{% endraw %}
