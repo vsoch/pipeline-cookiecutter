@@ -1,4 +1,4 @@
-{% comment %}Get links from each sidebar, as listed in the _config.yml file under sidebars{% endcomment %}
+{% raw %}{% comment %}Get links from each sidebar, as listed in the _config.yml file under sidebars{% endcomment %}
 
 {% for sidebar in site.sidebars %}
 {% for entry in site.data.sidebars[sidebar].entries %}
@@ -40,5 +40,4 @@
 {% endif %}
 {% endfor %}
 {% endfor %}
-{% endfor %}
-
+{% endfor %}{% endraw %}

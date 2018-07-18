@@ -1,5 +1,6 @@
 
 <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+{% raw %}
 <script>
 $( document ).ready(function() {
   // Handler for .ready() called.
@@ -18,4 +19,4 @@ $('#toc').on('click', 'a', function() {
 });
 </script>
 
-<div id="toc"></div>
+<div id="toc"></div>{% endraw %}
