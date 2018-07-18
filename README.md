@@ -5,8 +5,10 @@ This is a work in progress, a template for an example repository. The documentat
 will be found in this README until development is more finalized, and then move 
 into a proper format.
 
+# Usage
 
-## Usage
+## Step 1. Generate Codebase
+
 You can generate your starter ENCODE repository by doing the following:
 
 1. Install cookiecutter
@@ -44,6 +46,16 @@ cat cookiecutter.json
 ```bash
 cookiecutter --no-input
 ```
+
+At this point, you should customize the *.wdl file to coincide with your workflow. 
+There are a set of nice examples provided [here](https://github.com/dnanexus/dxWDL/tree/master/test/basic).
+
+
+## Step 2. Documentation
+
+The template also includes documentation, which will render to Github pages based on being in the "docs"
+folder. This means that once you push to Github, you should go to settings --> Github pages and
+select the option to have the docs for the repository to render from the docs folder.
 
 
 # Directories
