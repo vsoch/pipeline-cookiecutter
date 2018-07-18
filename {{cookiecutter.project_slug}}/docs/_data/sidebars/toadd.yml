@@ -1,3 +1,4 @@
+{% raw %}
   - title: Contributing
     output: web, pdf
     folderitems:
@@ -43,4 +44,4 @@
     - title: Service Class Users
       url: /scus
       output: web, pdf
-
+{% endraw %}

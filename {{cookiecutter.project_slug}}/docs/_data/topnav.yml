@@ -1,4 +1,4 @@
-#Topnav dropdowns
+{% raw %}#Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
@@ -14,4 +14,4 @@ topnav_dropdowns:
 ## Topnav single links
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 topnav:
-- title: Topnav
+- title: Topnav{% endraw %}

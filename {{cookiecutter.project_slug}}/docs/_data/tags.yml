@@ -1,4 +1,4 @@
-allowed-tags:
+{% raw %}allowed-tags:
   - getting_started
   - content_types
   - navigation
@@ -9,4 +9,5 @@ allowed-tags:
   - conference
   - docs
   - video
-  - audio
+  - audio{% endraw %}
+

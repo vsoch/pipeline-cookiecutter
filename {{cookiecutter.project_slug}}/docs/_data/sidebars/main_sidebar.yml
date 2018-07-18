@@ -1,6 +1,6 @@
 # This is the plan for the sidebar table of contents.
 
-entries:
+{% raw %}entries:
 
 - title:
   folders:
@@ -40,3 +40,4 @@ entries:
     - title: Continued Development
       url: development
       output: web, pdf
+{% endraw %}
