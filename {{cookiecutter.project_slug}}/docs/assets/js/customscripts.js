@@ -1,4 +1,4 @@
-
+{% raw %}
 $('#mysidebar').height($(".nav").height());
 
 
@@ -53,3 +53,4 @@ $(function() {
         }
     });
 });
+{% endraw %}

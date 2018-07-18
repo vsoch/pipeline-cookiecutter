@@ -1,4 +1,5 @@
 // https://github.com/ghiculescu/jekyll-table-of-contents
+{% raw %}
 (function($){
   $.fn.toc = function(options) {
     var defaults = {
@@ -80,3 +81,4 @@
     render[settings.showEffect]();
   };
 })(jQuery);
+{% endraw %}
